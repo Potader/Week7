@@ -1,8 +1,30 @@
-img {
-  border: 5px round;
+body {
+  background-color: olivedrab;
+  color: aliceblue;
+  min-height: 100vh;
 }
 
-#container {
+img {
+  border: 5px solid gainsboro;
+  border-radius: 10px;
+  width: 40%;
+}
+
+h1,
+h2,
+ul {
+  margin: 10px;
+}
+
+h3 {
+  margin: 4px;
+}
+
+.container {
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
